@@ -1,0 +1,37 @@
+{
+  "name": "@contentarchitect/code",
+  "version": "0.0.0",
+  "main": "dist/code.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Cihad Paksoy <cihadp@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-vue": "^5",
+    "rollup-plugin-vue-inline-svg": "^1.1.1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "estree-walker": "^0.6.1",
+    "hash-sum": "^2.0.0",
+    "ms": "^2.1.2",
+    "rollup-pluginutils": "^2.8.2"
+  },
+  "keywords": [
+    "code",
+    "block",
+    "contentarchitect",
+    "wysiwyg",
+    "editor"
+  ],
+  "description": "Code block for ContentArchitect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentarchitect/code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/contentarchitect/code/issues"
+  },
+  "homepage": "https://github.com/contentarchitect/code#readme"
+}
