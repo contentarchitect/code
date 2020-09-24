@@ -1,8 +1,8 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@contentarchitect/editor'), require('@contentarchitect/core')) :
-	typeof define === 'function' && define.amd ? define(['@contentarchitect/editor', '@contentarchitect/core'], factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Code = factory(global.ContentArchitect, global.core));
-}(this, (function (editor, core) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@contentarchitect/editor')) :
+	typeof define === 'function' && define.amd ? define(['@contentarchitect/editor'], factory) :
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Code = factory(global.ContentArchitect));
+}(this, (function (editor) { 'use strict';
 
 	//
 	//
@@ -270,8 +270,8 @@
 
 	var script$1 = {
 		components: {
-			CssGrid: core.CssGrid,
-			VSelect: core.VSelect,
+			CssGrid: editor.CssGrid,
+			VSelect: editor.VSelect,
 		},
 		props: ['value'],
 		data () {
@@ -331,7 +331,7 @@
 	  /* style */
 	  const __vue_inject_styles__$1 = function (inject) {
 	    if (!inject) return
-	    inject("data-v-07feb500_0", { source: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", map: {"version":3,"sources":[],"names":[],"mappings":"","file":"settings.vue"}, media: undefined });
+	    inject("data-v-17a17b4e_0", { source: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", map: {"version":3,"sources":[],"names":[],"mappings":"","file":"settings.vue"}, media: undefined });
 
 	  };
 	  /* scoped */

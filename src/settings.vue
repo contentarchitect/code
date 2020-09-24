@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { CssGrid, VSelect } from "@contentarchitect/core"
+import { CssGrid, VSelect } from "@contentarchitect/editor"
 
 export default {
 	components: {
