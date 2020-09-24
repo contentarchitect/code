@@ -1,6 +1,6 @@
 {
   "name": "@contentarchitect/code",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/code.js",
   "browser": "dist/code.min.js",
   "jsdelivr": "dist/code.min.js",
